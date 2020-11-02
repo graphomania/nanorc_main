@@ -1,3 +1,4 @@
+
 ## Sample initialization file for GNU nano.
 ##
 ## Please note that you must have configured nano with --enable-nanorc
@@ -289,11 +290,11 @@ bind ^L curpos main
 
 bind ^Space mark main
 bind ^X cut main
-bind ^C copytext main
-bind ^V uncut main
+bind ^D copy main
+bind M-D paste main
 
 bind ^F whereis main
-bind ^G searchagain main
+#bind ^G searchagain main
 bind ^R replace main
 
 bind ^Z undo main
